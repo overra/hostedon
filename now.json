@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "alias": ["hostedon"],
+  "builds": [
+    {"src": "index.js", "use": "@now/node"},
+    {"src": "*.md", "use": "@now/md"}
+  ],
+  "routes": [
+    {"src": "/", "dest": "readme.html"},
+    {"src": "/(.+)", "dest": "index.js"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hostedon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.0.84",
+    "htm": "^2.0.0",
+    "micro": "^9.3.3",
+    "node-dns": "^0.1.0",
+    "preact": "^8.4.2",
+    "preact-render-to-string": "^4.1.0"
+  }
+}
